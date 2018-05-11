@@ -1,0 +1,10 @@
+#logon.type,#logon.type.desc,#feed.name
+2,interactive_logon,microsoftlogontypefeed
+3,network_logon,microsoftlogontypefeed
+4,batch_logon,microsoftlogontypefeed
+5,service_logon,microsoftlogontypefeed
+7,unlock,microsoftlogontypefeed
+8,network_cleartext_logon,microsoftlogontypefeed
+9,new_credentials_logon,microsoftlogontypefeed
+10,remote_interactive_logon,microsoftlogontypefeed
+11,cached_interactive_logon,microsoftlogontypefeed

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FDF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="feed-definitions.xsd">
+
+<FlatFileFeed comment="#" separator="," path="microsoftlogontypefeed.csv" name="unified">
+
+<MetaCallback name="InspectMeta" valuetype="Text" ignorecase="true">
+<Meta name="logon.type"/>
+</MetaCallback>
+
+<LanguageKeys>
+<LanguageKey name="logon.type.desc" valuetype="Text"/>
+<LanguageKey name="feed.name" valuetype="Text"/>
+</LanguageKeys>
+
+<Fields>
+<Field index="1" type="index" key="InspectMeta"/>
+<Field index="2" type="value" key="logon.type.desc"/>
+<Field index="3" type="value" key="feed.name"/>
+</Fields>
+</FlatFileFeed>
+</FDF>

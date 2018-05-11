@@ -1,1 +1,1 @@
-# rsa_nw_feed_microsoftlogontype
+# Microsoft Logon Type Description Feed
